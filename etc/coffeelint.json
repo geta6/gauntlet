@@ -1,0 +1,115 @@
+{
+  "coffeescript_error": {
+    "level": "error"
+  },
+  "arrow_spacing": {
+    "level": "warn"
+  },
+  "no_tabs": {
+    "level": "error"
+  },
+  "no_trailing_whitespace": {
+    "level": "warn",
+    "allowed_in_comments": false,
+    "allowed_in_empty_lines": true
+  },
+  "max_line_length": {
+    "level": "warn",
+    "value": 80,
+    "limitComments": true
+  },
+  "line_endings": {
+    "level": "ignore",
+    "value": "unix"
+  },
+  "no_trailing_semicolons": {
+    "level": "error"
+  },
+  "indentation": {
+    "level": "error",
+    "value": 2
+  },
+  "colon_assignment_spacing": {
+    "spacing": {
+      "left": 0,
+      "right": 1
+    },
+    "level": "warn"
+  },
+  "no_implicit_braces": {
+    "level": "ignore",
+    "strict": true
+  },
+  "no_plusplus": {
+    "level": "ignore"
+  },
+  "no_throwing_strings": {
+    "level": "error"
+  },
+  "no_backticks": {
+    "level": "error"
+  },
+  "no_implicit_parens": {
+    "level": "ignore"
+  },
+  "no_empty_param_list": {
+    "level": "warn"
+  },
+  "no_stand_alone_at": {
+    "level": "warn"
+  },
+  "space_operators": {
+    "level": "warn"
+  },
+  "duplicate_key": {
+    "level": "error"
+  },
+  "empty_constructor_needs_parens": {
+    "level": "warn"
+  },
+  "cyclomatic_complexity": {
+    "value": 20,
+    "level": "ignore"
+  },
+  "newlines_after_classes": {
+    "level": "ignore",
+    "value": 3
+  },
+  "no_unnecessary_fat_arrows": {
+    "level": "warn"
+  },
+  "no_unnecessary_double_quotes": {
+    "level": "warn"
+  },
+  "no_empty_functions": {
+    "level": "warn"
+  },
+  "no_interpolation_in_single_quotes": {
+    "level": "warn"
+  },
+  "not_empty_constructor_needs_parens": {
+    "level": "ignore"
+  },
+  "forbidden_keywords": {
+    "module": "coffeelint-forbidden-keywords",
+    "level": "warn",
+    "forbidden": {
+      "on": "yes",
+      "off": "no",
+      "==": "is",
+      "!=": "isnt",
+      "&&": "and",
+      "||": "or"
+    }
+  },
+  "newline_at_eof": {
+    "module": "coffeelint-newline-at-eof",
+    "level": "warn",
+    "behaviour": "require"
+  },
+  "use_strict": {
+    "module": "coffeelint-use-strict",
+    "level": "warn",
+    "requireGlobal": true
+  }
+}

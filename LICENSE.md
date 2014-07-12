@@ -1,0 +1,2 @@
+Gauntlet is distributed under [MIT license](http://mutedsolutions.mit-license.org/).
+
