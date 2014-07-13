@@ -1,9 +1,9 @@
 {
   "name": "gauntlet",
   "description": "Make your js applications dance on the client and the server, using node.js.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/geta6/gauntlet",
-  "main": "lib/browser/gauntlet.js",
+  "main": "lib/core/gauntlet.js",
   "keywords": [
     "eventemitter",
     "promise",
@@ -15,6 +15,7 @@
     ".travis.yml",
     ".gitignore",
     ".npmignore",
+    "Makefile",
     "docs",
     "etc",
     "examples",

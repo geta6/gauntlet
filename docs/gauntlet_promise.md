@@ -4,6 +4,38 @@ A polyfill for ES6-style Promises, implementation of [Promises/A+](http://promis
 
 ## Example
 
+### Plain Success
+
+```coffee
+{Promise} = require 'gauntlet'
+
+new Promise (resolve, reject) ->
+  resolve foo: 'bar'
+.then (value) ->
+  console.log value # will be `{ foo: 'bar' }`
+.catch (reason) ->
+  console.log reason # never
+console.log 'test'
+```
+
+`'test'` will shown first, promise callback always call asynchronously.
+
+### Plain Failure
+
+```coffee
+{Promise} = require 'gauntlet'
+
+new Promise (resolve, reject) ->
+  reject new Error 'do not call me'
+.then (value) ->
+  console.log value # never
+.catch (reason) ->
+  console.log reason # will be `[Error: do not call me]`
+console.log 'test'
+```
+
+### With Redis
+
 ### Plain
 
 ```coffee
